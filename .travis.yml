@@ -3,7 +3,7 @@ node_js:
   - stable
 before_script:
   - npm install @11ty/eleventy -g
-script: eleventy
+script: yarn build
 deploy:
   local-dir: _site
   provider: pages
