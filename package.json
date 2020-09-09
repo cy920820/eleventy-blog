@@ -1,5 +1,5 @@
 {
-  "name": "eleventy-high-performance-blog",
+  "name": "blog",
   "version": "5.0.2",
   "license": "MIT",
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
@@ -13,9 +13,7 @@
     "test": "mocha test/test*.js",
     "test-watch": "mocha test/test*.js --watch"
   },
-  "pre-push": [
-    "build"
-  ],
+  "pre-push": [],
   "pre-commit": [],
   "repository": {
     "type": "git",
